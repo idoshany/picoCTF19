@@ -1,1 +1,1 @@
-flag
+picoCTF{r0p_1t_d0nT_st0p_1t_e51a1ea0}
