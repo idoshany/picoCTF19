@@ -1,0 +1,19 @@
+(0xaeed09cb,0xb7acde91,0xb7facecd)
+asm3:
+	<+0>:	push   ebp
+	<+1>:	mov    ebp,esp
+	<+3>:	xor    eax,eax
+	<+5>:	mov    ah,BYTE PTR [ebp+0xb]
+	<+8>:	shl    ax,0x10
+	<+12>:	sub    al,BYTE PTR [ebp+0xe]
+	<+15>:	add    ah,BYTE PTR [ebp+0xd]
+	<+18>:	xor    ax,WORD PTR [ebp+0x12]
+	<+22>:	nop
+	<+23>:	pop    ebp
+	<+24>:	ret    
+
+
+
+4 bytes each[ebp   ][RET][ARG1][ARG2][ARG3]
+def solved(0xaeed09cb,0xb7acde91,0xb7facecd):
+	stack = bytearray[]
